@@ -1,8 +1,10 @@
 import React from "react";
+import '../styles/ExpenseList.css';
+
 
 function ExpenseList({ expenses }) {
 return (
-    <table>
+    <table className="expense-table">
         <thead>
             <tr>
                 <th>Title</th>

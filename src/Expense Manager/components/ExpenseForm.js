@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import App from "../App";
+import '../styles/ExpenseForm.css';
 
 function ExpenseForm({ addExpense }) {
   const [title, setTitle] = useState("");
@@ -16,7 +16,7 @@ function ExpenseForm({ addExpense }) {
   };
 
   return (
-    <div>
+    <div className="expense-form">
       <form onSubmit={handleSubmit}>
         <input
           type="text"

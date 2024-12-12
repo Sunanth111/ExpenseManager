@@ -1,0 +1,12 @@
+.month-filter {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .month-filter label {
+    margin-right: 10px;
+  }
+  
+  .month-filter select {
+    padding: 5px;
+  }

@@ -1,16 +1,13 @@
-import React from 'react'
+import React from "react";
+import '../styles/Header.css';
 
 function Header() {
   return (
-    <div>
+    <header className="header">
       <h1>Monthly Expense Tracker</h1>
-    </div>
-  )
+    </header>
+  );
 }
-
-
-
-
 
 // const Header = () => {
 //     return (
@@ -20,4 +17,4 @@ function Header() {
 //     );
 //   };
 
-export default Header
+export default Header;
